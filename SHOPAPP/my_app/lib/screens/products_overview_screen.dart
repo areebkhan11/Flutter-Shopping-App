@@ -6,6 +6,8 @@ import '../widgets/products_grid.dart';
 enum FavoriteOption { fav, all }
 
 class ProductsOverviewScreen extends StatefulWidget {
+  const ProductsOverviewScreen({Key? key}) : super(key: key);
+
   @override
   State<ProductsOverviewScreen> createState() => _ProductsOverviewScreenState();
 }
